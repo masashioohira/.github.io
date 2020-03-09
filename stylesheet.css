@@ -1,5 +1,6 @@
 body {
  font-family:"Open Sans"
+ background-color:#cccccc;
 }
 
 li {
@@ -8,4 +9,9 @@ li {
 
 .header {
   height:120px;
+}
+
+.header list {
+ float:left;
+ backgronud-color:white;
 }
