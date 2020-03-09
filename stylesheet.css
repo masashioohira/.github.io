@@ -5,13 +5,14 @@ body {
 
 li {
  list-style: none;
+ float: left;
 }
 
 header {
-  height:120px;
+  height: 120px;
 }
 
 .header-list {
- float:left;
  backgronud-color:white;
+ font-size: 36px;
 }
