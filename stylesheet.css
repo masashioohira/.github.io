@@ -1,6 +1,5 @@
 body {
- font-family:"Open Sans"
- background-color:#cccccc;
+ font-family:"Open Sans";
 }
 
 li {
@@ -9,10 +8,26 @@ li {
 }
 
 header {
+  background-color: white;
   height: 120px;
 }
 
 .header-list {
  backgronud-color:white;
  font-size: 36px;
+}
+
+.main {
+ background-color: #cccccc;
+ height: 1200px;
+}
+
+.skill {
+ background-color: #cccccc;
+ height: 400px;
+}
+
+footer {
+ background-color: #cccccc;
+ height: 200px
 }
