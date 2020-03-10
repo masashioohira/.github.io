@@ -27,6 +27,23 @@ header {
  list-style: none;
 }
 
+.fa, fas {
+ font-weight: 900;
+}
+
+.fa, .far, .fas {
+ font-family: "Font Awesome 5 free";
+} 
+
+.fa-user:before {
+ content:"/f007";
+}
+
+heder a {
+ color: black;
+ margin-right: 10px;
+}
+
 .main {
  background-color: #cccccc;
  height: 1200px;
@@ -38,6 +55,6 @@ header {
 }
 
 footer {
- background-color: #cccccc;
+ background-color: #333333;
  height: 200px
 }
