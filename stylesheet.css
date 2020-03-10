@@ -9,7 +9,6 @@ li {
 }
 
 header {
-  text-align: center;
   position: fixed;
   top: 0;
   height: 80px;
@@ -24,7 +23,7 @@ header {
 
 .header li {
  font-size: 30px;
- padding: 0 20px;
+ padding: 0 60px;
 }
 
 .fa, fas {
