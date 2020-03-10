@@ -18,12 +18,12 @@ header {
 
 .header ul {
  display: flex;
- justify-content: center;
+ text-align: center;
  list-style: none;
 }
 
 .header li {
- font-size: 20px;
+ font-size: 40px;
  padding: 0 20px;
 }
 
@@ -34,18 +34,6 @@ header {
 .fa, .far, .fas {
  font-family: "Font Awesome 5 free";
 } 
-
-.fa-user:before {
- content:"/f007";
-}
-
-.fa-lightbuld:before {
- content:"/f303";
-}
-
-.fa-envelope:before {
- cpntent:"/f0e0";
-}
 
 heder a {
  color: black;
