@@ -5,6 +5,8 @@ body {
 li {
  list-style: none;
  float: left;
+ text-align: center;
+ margin-right: 40px;
 }
 
 header {
@@ -18,9 +20,7 @@ header {
 
 .header ul {
  display: flex;
- text-align: center;
  list-style: none;
- margin-right: 40px;
 }
 
 .header li {
