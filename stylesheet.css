@@ -16,15 +16,15 @@ header {
   border:3px solid #f7f7f7;
 }
 
-.header-li {
- font-size: 20px;
- padding: 0 20px;
-}
-
-.header-ul {
+.header ul {
  display: flex;
  justify-content: center;
  list-style: none;
+}
+
+.header li {
+ font-size: 20px;
+ padding: 0 20px;
 }
 
 .fa, fas {
@@ -37,6 +37,14 @@ header {
 
 .fa-user:before {
  content:"/f007";
+}
+
+.fa-lightbuld:before {
+ content:"/f303";
+}
+
+.fa-envelope:before {
+ cpntent:"/f0e0";
 }
 
 heder a {
