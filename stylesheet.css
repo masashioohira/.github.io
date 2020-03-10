@@ -5,10 +5,10 @@ body {
 li {
  list-style: none;
  float: left;
- margin-right: 40px;
 }
 
 header {
+  width: 100%;
   position: fixed;
   top: 0;
   height: 80px;
@@ -17,6 +17,7 @@ header {
 }
 
 .header ul {
+ justify-content: center;
  display: flex;
  list-style: none;
 }
