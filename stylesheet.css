@@ -17,10 +17,12 @@ header {
   border:3px solid #f7f7f7;
 }
 
-.ul {
+.header ul {
  justify-content: center;
  display: flex;
  list-style: none;
+ margin-top: 30px;
+ padding-left: 250px;
 }
 
 .header li {
