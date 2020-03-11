@@ -50,10 +50,17 @@ heder a {
 .container {
  width: 100%;
  margin: 0 auto;
+ height: 400px;
+ background-color: #cccccc;
+
 }
 
 .top-wrapper h1 {
   font-size: 60px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-color: white;
+  border-style: solid;border-width: 1ex;
 }
 
 .profile-wrapper {
