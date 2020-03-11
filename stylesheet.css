@@ -8,6 +8,10 @@ li {
  padding: 0 60px;
 }
 
+ul {
+padding-left: 270px;
+}
+
 header {
   width: 100%;
   position: fixed;
@@ -22,7 +26,6 @@ header {
  display: flex;
  list-style: none;
  margin-top: 30px;
- padding-left: 250px;
 }
 
 .header li {
