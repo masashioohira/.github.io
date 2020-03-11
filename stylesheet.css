@@ -40,29 +40,38 @@ header {
 
 .fa, .far, .fas {
  font-family: "Font Awesome 5 free";
-} 
+}
 
 heder a {
  color: black;
  margin-right: 10px;
 }
 
-.main {
+.container {
+ width: 100%;
+ margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 60px;
+}
+
+.profile-wrapper {
  background-color: #cccccc;
  height: 1200px;
 }
 
-.skill {
+.skill-wrapper {
  background-color: #cccccc;
  height: 400px;
+}
+
+.contact-wrapper {
+  background-color: #cccccc;
+  height: 400px;
 }
 
 footer {
  background-color: #333333;
  height: 200px
-}
-
-.container {
- width: 160px;
- margin: 0 auto;
 }
