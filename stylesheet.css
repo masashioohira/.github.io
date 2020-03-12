@@ -67,6 +67,27 @@ heder a {
  height: 1200px;
 }
 
+.profile-wrapper {
+  display: flex;
+}
+
+.profile-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-image {
+  width: 20%;
+  height: auto;
+}
+
+.profile-image img {
+  max-width: 50%
+  height:auto;
+}
+
 .skill-wrapper {
  background-color: #cccccc;
  height: 400px;
