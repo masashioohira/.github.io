@@ -50,8 +50,6 @@ heder a {
  width: 100%;
  margin: 0 auto;
  background-color: #cccccc;
- padding: 100px 0 100px 0;
- border-style: solid;border-width: 5px;
 
 }
 
@@ -103,9 +101,15 @@ heder a {
 }
 
 .card {
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
   flex-basis: 46%;
   margin-bottom: 50px;
-  display: flex;
 }
 
 .skill-desc {
