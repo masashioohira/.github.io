@@ -67,7 +67,7 @@ heder a {
  height: 1200px;
 }
 
-.profile-wrapper {
+.profile {
   display: flex;
 }
 
@@ -76,6 +76,10 @@ heder a {
   margin: 0 auto;
   text-align: center;
   padding: 20px;
+}
+
+.section-title h2 {
+  font-size: 18px;
 }
 
 .profile-image {
@@ -91,6 +95,7 @@ heder a {
 
 .profile-text {
   background-color: #ffffff
+  width: 66%;
 }
 
 .skill-wrapper {
