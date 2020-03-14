@@ -79,13 +79,13 @@ heder a {
 }
 
 .section-title h2 {
-  font-size: 18px;
+  font-size: 50px;
 }
 
 .profile-image {
-  width: 100%;
+  width: 200px;
+  height: 100px;
   float:left;
-  height: auto;
 }
 
 .profile-image img {
@@ -95,7 +95,7 @@ heder a {
 
 .profile-text {
   background-color: #ffffff
-  width: 66%;
+  width: 80%;
 }
 
 .skill-wrapper {
