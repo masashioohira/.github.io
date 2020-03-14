@@ -93,8 +93,26 @@ heder a {
 }
 
 .skill-wrapper {
- background-color: #ACE075;
- height: 400px;
+ background-color: #cccccc;
+ height: 800px;
+}
+
+.card {
+  flex-basis: 46%;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.skill-desc {
+  flex-basis: calc(100% - 75px - 30px);
+  text-align: center;
+}
+
+.skill-desc-title {
+  margin-bottom: 3px;
+  font-size: 26px;
+  padding: 24px;
+  font-weight: bold;
 }
 
 .contact-wrapper {
