@@ -69,6 +69,7 @@ heder a {
 
 .profile {
   display: flex;
+  font-size: 23px;
 }
 
 .profile-container {
@@ -88,19 +89,17 @@ heder a {
 
 .profile-text {
   width: 90%;
-  text-align: center;
   background-color: #ffffff
-  font-size: 40px;
 }
 
 .skill-wrapper {
- background-color: #cccccc;
+ background-color: #ACE075;
  height: 400px;
  width: 600px;
 }
 
 .contact-wrapper {
-  background-color: #cccccc;
+  background-color: #7FB6F5;
   height: 400px;
 }
 
