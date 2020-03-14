@@ -63,7 +63,7 @@ heder a {
 
 .profile-wrapper {
  background-color: #cccccc;
- height: 800px;
+ height: 600px;
 }
 
 .section-title {
@@ -115,14 +115,15 @@ heder a {
 }
 
 .section-title h2 {
-  font-size: 50px;
+  font-size: 10px;
   text-align: center;
 }
 
 .card {
   flex-basis: 50%;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
+  line-height: 1.5
 }
 
 .skill-desc {
@@ -131,13 +132,13 @@ heder a {
 }
 
 .skill-desc h3 {
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .skill-desc-title {
   margin-bottom: 3px;
   font-size: 26px;
-  padding: 24px;
+  padding: 10px;
   font-weight: bold;
 }
 
