@@ -83,24 +83,20 @@ heder a {
 }
 
 .profile-image {
-  width: 200px;
-  height: 100px;
   float:left;
 }
 
-.profile-image img {
-  max-width: 100%
-  height:auto;
-}
-
 .profile-text {
+  width: 60%;
+  text-align: right;
   background-color: #ffffff
-  width: 80%;
+
 }
 
 .skill-wrapper {
  background-color: #cccccc;
  height: 400px;
+ width: 600px;
 }
 
 .contact-wrapper {
