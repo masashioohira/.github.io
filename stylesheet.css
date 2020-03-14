@@ -89,9 +89,8 @@ heder a {
 .profile-text {
   width: 90%;
   text-align: center;
-  margin-top: 80px;
   background-color: #ffffff
-  font-size:  28px;
+  font-size: 40px;
 }
 
 .skill-wrapper {
