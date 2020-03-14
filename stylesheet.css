@@ -101,13 +101,6 @@ heder a {
 }
 
 .card {
-  position: relative;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: .25rem;
   flex-basis: 46%;
   margin-bottom: 50px;
 }
