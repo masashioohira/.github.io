@@ -19,6 +19,9 @@ header {
   height: 80px;
   background-color: white;
   border:3px solid #f7f7f7;
+  position: fixed;
+  top: 0;
+  z-index: 100%
 }
 
 .header ul {
@@ -111,7 +114,7 @@ heder a {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .section-title h2 {
@@ -129,6 +132,7 @@ heder a {
 .skill-desc {
   width: 90%;
   background-color: #ffffff
+  padding-bottom: 30px;
 }
 
 .skill-desc h3 {
@@ -144,7 +148,8 @@ heder a {
 
 .contact-wrapper {
   background-color: #cccccc;
-  height: 400px;
+  height: 500px;
+  padding-top: 30px;
 }
 
 .contact-form {
