@@ -147,8 +147,9 @@ heder a {
   height: 400px;
 }
 
-.contact-container {
-
+.contact-form {
+  text-align: center;
+  font-size: 28px;
 }
 
 .section-desc {
@@ -157,8 +158,8 @@ heder a {
 }
 
 footer {
-  text-align: center;
+ text-align: center;
  background-color: #333333;
- height: 100px
+ height: 200px
  color: white;
 }
