@@ -19,9 +19,6 @@ header {
   height: 80px;
   background-color: white;
   border:3px solid #f7f7f7;
-  position: fixed;
-  top: 0;
-  z-index: 100%
 }
 
 .header ul {
