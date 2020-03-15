@@ -97,7 +97,7 @@ heder a {
 
 .skill-wrapper {
  background-color: #cccccc;
- height: 1000px;
+ height: 850px;
 }
 
 .skill-container {
@@ -143,7 +143,7 @@ heder a {
 }
 
 .contact-wrapper {
-  background-color: #ffffff;
+  background-color: #cccccc;
   height: 400px;
 }
 
@@ -158,8 +158,10 @@ heder a {
 }
 
 footer {
- text-align: center;
- background-color: #333333;
  height: 200px
- color: white;
+ background-color: #333333;
+}
+footer p {
+  text-align: center;
+  color: white;
 }
