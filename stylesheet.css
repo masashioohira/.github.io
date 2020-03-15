@@ -143,11 +143,22 @@ heder a {
 }
 
 .contact-wrapper {
-  background-color: #7FB6F5;
+  background-color: #ffffff;
   height: 400px;
 }
 
+.contact-container {
+
+}
+
+.section-desc {
+  font-size: 28px;
+  text-align: center;
+}
+
 footer {
+  text-align: center;
  background-color: #333333;
- height: 200px
+ height: 100px
+ color: white;
 }
