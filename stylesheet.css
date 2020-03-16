@@ -129,6 +129,7 @@ heder a {
 .skill-desc {
   width: 90%;
   background-color: #ffffff
+  padding-bottom: 30px;
 }
 
 .skill-desc h3 {
