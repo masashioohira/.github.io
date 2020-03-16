@@ -19,6 +19,11 @@ header {
   height: 80px;
   background-color: white;
   border:3px solid #f7f7f7;
+  border-bottom: solid; border-width: 5px; 
+  position: fixed;
+  top 0;
+  position: fixed;
+  z-index: auto;
 }
 
 .header ul {
@@ -92,7 +97,7 @@ heder a {
 
 .profile-text {
   width: 90%;
-  background-color: #ffffff;
+  background-color: #ffffff
 }
 
 .skill-wrapper {
