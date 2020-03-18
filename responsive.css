@@ -1,11 +1,38 @@
 @media (max-width: 1000px) {
+
+footer {
+  text-align: center;
+  width: 100%
+}
+
+.profile {
+  font-size: 18px
+}
+
+.card {
+  font-size: 18px
+}
+
 }
 
 @media (max-width: 670px) {
 }
 
 footer {
-    text-align: center;
-  }
+  text-align: center;
+  width: 100%
+}
+
+.profile {
+  clear: none;
+}
+
+.skill-container {
+  width: 100%
+}
+
+.card-wrapper {
+  clear: none;
+}
 
 }
