@@ -20,11 +20,11 @@ footer {
 
 footer {
   text-align: center;
-  width: 100%
+  width: 30%
 }
 
 .profile {
-  clear: none;
+  float: none;
 }
 
 .skill-container {
@@ -32,7 +32,7 @@ footer {
 }
 
 .card-wrapper {
-  clear: none;
+  float: none;
 }
 
 }
