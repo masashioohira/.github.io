@@ -1,1 +1,19 @@
+@media screen and ( max-width:479px ) {
+
+body{
+ font-size: 13px ;
+}
+
+heder {
+  width: 150px;
+}
+
+.profile-image {
+  float: none;
+}
+.card-wrapper {
+  display: none;
+}
+
+}
 
