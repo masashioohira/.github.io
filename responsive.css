@@ -4,6 +4,10 @@ heder {
   width: 100%;
 }
 
+.top-wrapper h1 {
+  color: red;
+}
+  
 .profile-image {
   float: none;
 }
