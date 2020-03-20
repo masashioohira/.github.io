@@ -12,7 +12,7 @@ heder {
 
 ul {
   padding-left: 0px;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 
 li {
@@ -33,7 +33,7 @@ li {
 }
 
 .profile-wrapper {
-  height: 700px;
+  height: 800px;
 }
 
 .section-title {
@@ -45,8 +45,7 @@ li {
 }
 
 .profile-image {
-  width: 250px;
-  height: 250px;
+  float: none;
 }
 
 .profile-container {
@@ -66,8 +65,8 @@ li {
 }
 
 .card-wrapper {
- display: none;
  padding: 10px;
+ display: list-item;
 }
 
 .card {
