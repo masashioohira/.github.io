@@ -26,7 +26,6 @@ header {
   border-bottom: solid; border-width: 5px;
   position: fixed;
   top 0;
-  position: fixed;
   z-index: auto;
 }
 
