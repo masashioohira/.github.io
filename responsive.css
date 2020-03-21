@@ -28,8 +28,20 @@ li {
 }
 
 .profile {
-  display: none;
+  display: block;
   font-size: 16px;
+}
+
+.profile-image {
+  float: none;
+}
+
+.profile-container {
+  width: 100%;
+}
+
+.profile-text {
+  width: 100%
 }
 
 .profile-wrapper {
@@ -42,18 +54,6 @@ li {
 
 .section-title h2 {
   font-size: 35px;
-}
-
-.profile-image {
-  float: none;
-}
-
-.profile-container {
-  width: 100%;
-}
-
-.profil-text {
-  width: 100%
 }
 
 .skill-wrapper {
