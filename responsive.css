@@ -92,6 +92,11 @@ li {
   height: 800px;
 }
 
+.text-container p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 .section-title {
   padding-top: 10px;
 }
