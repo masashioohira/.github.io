@@ -74,6 +74,7 @@ li {
 
 .profile-text {
  text-align: left;
+ background-color: #EEEEEE;
 }
 
 .profile-image {
@@ -110,7 +111,8 @@ li {
 }
 
 .skill-desc {
-  width: 100%
+  width: 100%;
+  background-color: #EEEEEE;
 }
 
 .card-wrapper {
