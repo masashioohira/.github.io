@@ -135,7 +135,12 @@ header {
   font-size: 15px;
 }
 
+.profile-image {
+  width: 100%
+}
+
 .card {
   font-size: 14px;
 }
+
 }
