@@ -21,7 +21,7 @@ header {
   width: 100%;
   top: 0;
   height: 80px;
-  background-color: white;
+  background-color: #EEEEEE;
   border:3px solid #f7f7f7;
   border-bottom: solid; border-width: 5px;
   position: fixed;
