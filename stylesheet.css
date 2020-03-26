@@ -136,6 +136,13 @@ heder a {
   line-height: 1;
 }
 
+.java-card{
+  flex-basis: 50%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1;
+}
+
 .skill-desc {
   width: 90%;
   background-color: #EEEEEE;
