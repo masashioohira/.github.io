@@ -1,187 +1,169 @@
-*{
-  box-sizing: border-box;
-}
-
-body {
- font-family:"Open Sans";
- margin: 0;
- padding: 0;
-}
-
-li {
- list-style: none;
- float: left;
- padding: 0 60px;
+@media (max-width: 1050px) {
+header {
+ width: 100%;
+ height: 60px;
+ font-size: 19px;
+ padding-left: 150px;
 }
 
 ul {
-padding-left: 270px;
-margin-top: 30px;
+  padding-left: 0px;
+  margin-top: 15px;
 }
 
-header {
-  width: 100%;
-  top: 0;
-  height: 80px;
-  background-color: #EEEEEE;
-  border:3px solid #f7f7f7;
-  border-bottom: solid; border-width: 5px;
-  position: fixed;
-  top 0;
-  z-index: auto;
-}
-
-.header ul {
- justify-content: center;
- display: flex;
- list-style: none;
- margin-top: 30px;
-}
-
-.header li {
- font-size: 30px;
- padding: 0 60px;
-}
-
-.fa, fas {
- font-weight: 900;
-}
-
-.fa, .far, .fas {
- font-family: "Font Awesome 5 free";
-}
-
-heder a {
- color: black;
- margin-right: 10px;
+li {
+  padding: 0 10px;
 }
 
 .container {
- width: 100%;
- margin: 0 auto;
- background-color: #cccccc;
- padding: 100px 0 100px 0;
- border-style: solid;border-width: 5px;
-}
-
-.top-wrapper h1 {
-  font-size: 80px;
-  letter-spacing: 1px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.profile-wrapper {
- background-color: #cccccc;
- height: 600px;
-}
-
-.section-title {
-  padding-top: 40px;
+  padding: 50px 30px 10px ;
 }
 
 .profile {
-  display: flex;
-  font-size: 23px;
-}
-
-.profile-container {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-}
-
-.section-title h2 {
-  font-size: 50px;
-}
-
-.profile-image {
-  float:left;
+  font-size: 16px;
 }
 
 .profile-text {
-  width: 90%;
-  background-color: #EEEEEE;
+  border: solid #00000075;
 }
 
 .skill-wrapper {
- background-color: #cccccc;
- height: 850px;
-}
-
-.skill-container {
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.card-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.section-title h2 {
-  font-size: 50px;
-  text-align: center;
+  height: 750px
 }
 
 .card {
-  flex-basis: 50%;
-  text-align: center;
-  font-size: 25px;
-  line-height: 1
+  font-size: 15px;
+  border: solid #00000075;
+}
+
+}
+
+@media ( max-width:780px ) {
+
+header{
+  font-size: 16px;
+  padding-left: 90px;
+}
+}
+
+@media ( max-width:670px ) {
+
+header {
+  width: 100%;
+  height: 60px;
+  font-size: 8px;
+  padding-left: 20px;
+}
+
+ul {
+  padding-left: 0px;
+  margin-top: 15px;
+}
+
+li {
+  padding: 0 10px;
+}
+
+.container {
+  padding: 50px 30px 10px ;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+}
+
+.profile {
+  display: block;
+  font-size: 16px;
+}
+
+.profile-text {
+ text-align: left;
+ background-color: #EEEEEE;
+}
+
+.profile-image {
+  float: none;
+}
+
+.profile-container {
+  width: 100%;
+}
+
+.profile-text {
+  width: 100%
+}
+
+.profile-wrapper {
+  height: 750px;
+}
+
+.text-container p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  padding-top: 10px;
+}
+
+.section-title h2 {
+  font-size: 35px;
+}
+
+.skill-wrapper {
+  height: 900px
 }
 
 .skill-desc {
-  width: 90%;
+  width: 100%;
   background-color: #EEEEEE;
-  padding-bottom: 30px;
 }
 
-.skill-desc h3 {
-  font-size: 40px;
+.card-wrapper {
+ padding: 10px;
+ display: list-item;
 }
 
-.skill-desc-title {
-  margin-bottom: 3px;
-  font-size: 26px;
-  padding: 10px;
-  font-weight: bold;
+.card {
+  font-size: 15px;
 }
 
 .contact-wrapper {
-  background-color: #cccccc;
-  height: 500px;
-  padding-top: 30px;
+  height: 400px;
 }
 
 .contact-form {
-  text-align: center;
-  font-size: 28px;
+  font-size: 18px
+}
 }
 
-.section-desc {
-  font-size: 28px;
-  text-align: center;
+@media ( max-width:370px ) {
+header {
+  width: 100%;
+  height: 60px;
+  font-size: 7px;
+  padding-left: 5px;
 }
 
-footer {
- background-color: #333333;
- color: white;
+.profile {
+  display: block;
+  font-size: 13px;
 }
 
-.footer-container {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 30px 0;
+.profile-image {
+  width: 100%;
 }
 
-.footer p {
-  text-align: center;
-  color: white;
+.card {
+  font-size: 14px;
+}
+
+}
+
+@media ( max-width:330px ) {
+.profile-image img {
+  width: 200px;
+  height: 200px;
+}
 }
