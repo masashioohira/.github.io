@@ -103,7 +103,6 @@ heder a {
 .profile-text {
   width: 90%;
   background-color: #EEEEEE;
-  border: solid #00000075;
 }
 
 .skill-wrapper {
@@ -141,6 +140,7 @@ heder a {
   width: 90%;
   background-color: #EEEEEE;
   padding-bottom: 30px;
+  border: solid#00000066;
 }
 
 .skill-desc h3 {
