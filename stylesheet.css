@@ -103,6 +103,7 @@ heder a {
 .profile-text {
   width: 90%;
   background-color: #EEEEEE;
+  border: solid#00000066;
 }
 
 .skill-wrapper {
