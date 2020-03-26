@@ -31,6 +31,8 @@ li {
   font-size: 15px;
 }
 
+.java-card {
+  font-size: 15px;
 }
 
 @media ( max-width:780px ) {
@@ -90,7 +92,7 @@ li {
 }
 
 .profile-wrapper {
-  height: 750px;
+  height: 800px;
 }
 
 .text-container p {
@@ -124,6 +126,10 @@ li {
   font-size: 15px;
 }
 
+.java-card {
+  font-size: 15px;
+}
+
 .contact-wrapper {
   height: 400px;
 }
@@ -151,6 +157,10 @@ header {
 }
 
 .card {
+  font-size: 14px;
+}
+
+.java-card {
   font-size: 14px;
 }
 
