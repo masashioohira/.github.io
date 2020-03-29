@@ -23,6 +23,9 @@ header {
   width: 100%;
   top: 0;
   height: 80px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   background-color: #cccccc;
   border:3px solid #f7f7f7;
   border-bottom: solid; border-width: 5px;
@@ -146,6 +149,7 @@ heder a {
 
 .skill-desc {
   width: 90%;
+  text-align: left;
   padding-bottom: 30px;
   border: solid#00000066;
 }
@@ -159,6 +163,7 @@ heder a {
   font-size: 26px;
   padding: 10px;
   font-weight: bold;
+  text-align: center;
 }
 
 .contact-wrapper {
